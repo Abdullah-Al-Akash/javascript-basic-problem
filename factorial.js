@@ -8,4 +8,4 @@ function factorial(n) {
         return n + '! = ' + number;
 }
 
-console.log(factorial(5));
+console.log(factorial(7));
