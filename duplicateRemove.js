@@ -3,9 +3,8 @@
 */
 
 
-const age = [10, 11, 12, 13, 14, 15, 11, 16, 12];
+let age = [10, 11, 12, 13, 14, 15, 11, 16, 12];
 const names = ['A', 'A', 'B', 'C', 'D', 'E', 'F', 'A', 'B']
-
 function UniqueElement(age) {
         const uniqueAge = [];
         for (const element of age) {
