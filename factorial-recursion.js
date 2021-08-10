@@ -20,10 +20,10 @@ function factorialRecursion(n) {
                 return total;
         }
 
-        for (let i = 1; i <= n; i++) {
+        for (let i = n; i >= 1; i--) {
                 total = n * factorialRecursion(n - 1);
                 return total;
         }
 }
 
-console.log(factorialRecursion(4))
+console.log(factorialRecursion(5))
